@@ -11,13 +11,6 @@ import discordImage from '@/images/resources/discord.svg'
 import figmaImage from '@/images/resources/figma.svg'
 import videoPlayerImage from '@/images/resources/video-player.svg'
 
-// 'Utworzymy budżet na ogólnouczelniane mikrogranty.',
-//             'Dzięki “TASK” sfinansujemy aktywności (kursy, szkolenia, warsztaty), których celem będzie poprawa jakości komunikacji i metod zarządzania zespołami. W ten sposób proponujemy, aby wyzwanie rozwiązywania problemów na Uczelni stało się przedmiotem wspólnej, inicjowanej oddolnie wrażliwości. W ten sposób każdy będzie mógł samemu zatroszczyć się o siebie i o swoje środowisko pracy.',
-//             'Wzmocnimy poczucie sprawczości u każdego z nas.',
-//             'Umożliwimy i uprościmy także sposób rozwiązywania problemów. Osoba, której dotyczy trudność, sama dokona diagnozy. Liczymy na to, że pracownicy zachęceni łatwym w uzyskaniu finansowaniem znajdą odpowiednie szkolenia i wpłyną na usunięcie wielu przeszkód.',
-//             'Program pozwoli także na postawienie diagnozy dotyczącej szeroko rozumianej      kondycji zarządczej Uczelni.',
-//             'Wzbogacimy naszą wiedzę o tym, jak powszechne są problemy społeczne i jaki jest ich najczęstszy typ. Te informacje staną się kluczowe dla formowania dalszej polityki Uczelni. Program ma charakter sondażu, który w przypadku sukcesu będzie można udoskonalić i kontynuować.'
-
 const resources = [
   {
     title: 'Ułatwijmy finansowanie inicjatyw pracowniczych',
@@ -98,7 +91,7 @@ export function Introduction() {
     <section
       id="introduction"
       aria-label="Introduction"
-      className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
+      className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32 sm:scroll-mb-32"
     >
       <Container className="text-lg tracking-tight text-slate-700">
         <SectionHeading number="1" id="introduction-title">
