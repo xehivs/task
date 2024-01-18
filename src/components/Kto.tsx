@@ -34,7 +34,7 @@ export function Kto() {
             <SectionHeading number="4" id="author-title">
               Kim jesteśmy?
             </SectionHeading>
-            <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
+            <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">
               <span className="block text-puder">Jesteśmy członkami Politechniki Wrocławskiej –</span> Reprezentujemy różne Wydziały i stanowiska: od pracowników administracji, przez studentów i doktorantów, po nauczycieli akademickich.
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
