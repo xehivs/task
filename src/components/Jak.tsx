@@ -107,9 +107,9 @@ export function Jak() {
                     'conic-gradient(from -49.8deg at 50% 50%, #ce4e8a 0deg, #ce4e8a 59.07deg, #Fe4eBa 185.61deg, #ce4e8a 284.23deg, #Fe4eBa 329.41deg, #ce4e8a 360deg)',
                 }}
               >
-                <div className="flex overflow-hidden rounded shadow-sm">
+                {/* <div className="flex overflow-hidden rounded shadow-sm">
                   <Image src={stage.image} alt="" unoptimized />
-                </div>
+                </div> */}
                 {/* <div className="absolute bottom-2 left-2 flex items-center rounded-lg bg-black/30 px-1.5 py-0.5 text-sm text-white [@supports(backdrop-filter:blur(0))]:bg-white/10 [@supports(backdrop-filter:blur(0))]:backdrop-blur">
                   <PlayIcon className="h-4 w-4 fill-current stroke-current" />
                   <time
