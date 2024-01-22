@@ -95,9 +95,9 @@ export function Testimonials() {
         <h2 className="font-display text-4xl font-bold tracking-tight text-slate-900">
           Część z nas uczestniczyła już w podobnych działaniach...
         </h2>
-        <p className="mt-4 text-lg tracking-tight text-slate-600">
+        {/* <p className="mt-4 text-lg tracking-tight text-slate-600">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, eaque laborum! Consequuntur tenetur suscipit atque dicta accusamus, repudiandae inventore! Assumenda voluptas cupiditate quod aliquam rerum, provident quibusdam quidem vero odit.
-        </p>
+        </p> */}
       </Container>
       <Expandable className="group mt-16">
         <ul
