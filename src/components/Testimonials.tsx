@@ -18,17 +18,17 @@ import avatarImage10 from '@/images/avatars/avatar-10.png'
 import avatarImage11 from '@/images/avatars/avatar-11.png'
 
 const testimonials = [
-  [
-    {
-      content:
-        'I do not know why I am here.',
-      author: {
-        name: 'Antonio Alejandro',
-        role: 'Frontend Developer',
-        image: avatarImage3,
-      },
-    },
-  ],
+  // [
+  //   // {
+  //   //   content:
+  //   //     'I do not know why I am here.',
+  //   //   author: {
+  //   //     name: 'Antonio Alejandro',
+  //   //     role: 'Frontend Developer',
+  //   //     image: avatarImage3,
+  //   //   },
+  //   // },
+  // ],
   [
     {
       content:

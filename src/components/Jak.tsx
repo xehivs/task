@@ -86,12 +86,12 @@ export function Jak() {
         <SectionHeading number="3" id="jak-title">
           Jak to zrealizujemy?
         </SectionHeading>
-        <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
+        {/* <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum consequuntur magni, dignissimos qui quae consequatur eos pariatur accusamus sit officiis aspernatur ea explicabo nisi quod? Minus consectetur aliquam laudantium vero.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero in, exercitationem rerum sapiente magnam officiis nobis excepturi alias quod mollitia consequatur iste vel deserunt eveniet pariatur quisquam dignissimos delectus veniam!
-        </p>
+        </p> */}
       </Container>
       <Container size="lg" className="mt-16">
         <ol

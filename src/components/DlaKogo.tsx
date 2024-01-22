@@ -134,7 +134,7 @@ export function DlaKogo() {
 ● pracownicy administracyjni,
 ● pracownicy techniczni, wspierający i inni. */}
 
-      <div className="mx-auto mt-16 max-w-5xl lg:px-6">
+      {/* <div className="mx-auto mt-16 max-w-5xl lg:px-6">
         <div className="grid bg-slate-50 sm:px-6 sm:pb-16 md:grid-cols-2 md:rounded-6xl md:px-8 md:pt-16 lg:p-20">
           <Plan
             name="Pracownicy dydaktyczni"
@@ -192,7 +192,7 @@ export function DlaKogo() {
             ]}
           />
         </div>
-      </div>
+      </div> */}
 
     </section>
   )

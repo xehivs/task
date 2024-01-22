@@ -23,12 +23,12 @@ export function Kto() {
       <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
         <div className="bg-slate-50 pt-px sm:rounded-6xl">
           <div className="relative mx-auto -mt-16 h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-64 md:w-64 md:[shape-outside:circle(40%)] lg:mr-20 lg:h-72 lg:w-72">
-            <Image
+            {/* <Image
               className="absolute inset-0 h-full w-full object-cover"
               src={authorImage}
               alt=""
               sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
-            />
+            /> */}
           </div>
           <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
             <SectionHeading number="4" id="author-title">
