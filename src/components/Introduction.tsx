@@ -103,9 +103,9 @@ export function Introduction() {
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
           Jaki jest cel projektu TASK i co właściwie próbujemy przez niego osiągnąć?
         </p>
-        <p className="mt-4 text-lg tracking-tight text-slate-700">
+        {/* <p className="mt-4 text-lg tracking-tight text-slate-700">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero in, exercitationem rerum sapiente magnam officiis nobis excepturi alias quod mollitia consequatur iste vel deserunt eveniet pariatur quisquam dignissimos delectus veniam!
-        </p>
+        </p> */}
       </Container>
 
       <Container size="lg" className="mt-16">
