@@ -37,12 +37,14 @@ export default {
         display: ['Cabinet Grotesk', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        'puder': '#ce4e8a',
-        'puder-light': '#FFEEFA',
+        'puder': '#43609F',
+        'puder-light': '#E0EAFF',
         'tel': '#25756f',
         'tel-light': '#65B5Af'
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 } satisfies Config

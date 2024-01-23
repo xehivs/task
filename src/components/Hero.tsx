@@ -1,23 +1,24 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 import { Button } from '@/components/Button'
 import { GridPattern } from '@/components/GridPattern'
 import { StarRating } from '@/components/StarRating'
-import coverImage from '@/images/taskp.png'
+import coverImage from '@/images/tasks.jpg'
 
 function Testimonial() {
   return (
     <figure className="relative mx-auto max-w-md text-center lg:mx-0 lg:text-left">
       <blockquote className="mt-2">
         <p className="font-display text-l font-medium text-slate-900">
-          “Badając, ucząc i współdziałając inspirujemy i wspieramy rozwój osobowości, które w oparciu o wiedzę i standardy etyczne, wykazując wrażliwość na potrzeby społeczne i globalne wyzwania, z odwagą i odpowiedzialnością kształtują przyszłość.”
+        Mikrogranty celowane – wsparcie w zakresie doskonalenia umiejętności komunikacyjnych i zarządczych.
         </p>
       </blockquote>
       <figcaption className="mt-2 text-sm text-slate-500">
         <strong className="font-semibold text-puder before:content-['—_']">
-          Misja uczelni
+          TASK
         </strong>
-        , Strategia Politechniki Wrocławskiej 2023-2030
+        : Targetted Skills
       </figcaption>
     </figure>
   )
@@ -46,7 +47,10 @@ export function Hero() {
         </div>
         <div className="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pl-16 lg:pt-0 xl:pl-20">
           <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
-            <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
+          <div class="aspect-w-16 aspect-h-9">
+            <iframe src="https://www.youtube.com/embed/xtd2eIrr0kU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+            {/* <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
               TASK
             </h1>
             <h2 className="font-display text-3xl font-extrabold text-slate-900 sm:text-3xl">
@@ -54,15 +58,36 @@ export function Hero() {
             </h2>
             <p className="mt-4 text-3xl text-slate-600">
               Mikrogranty celowane – wsparcie w zakresie doskonalenia umiejętności komunikacyjnych i zarządczych.
-            </p>
+            </p> */}
             <div className="mt-8 flex gap-4">
-              <Button href="#free-chapters" color="puder">
+              {/* <Button href="#free-chapters" color="puder">
                 Złóż wniosek
+              </Button> */}
+              <Button href="" variant="outline" color="blue">
+                Opis
               </Button>
-              <Button href="#pricing" variant="outline" color="blue">
+              <Button href="" variant="outline" color="blue">
                 Regulamin
               </Button>
+              <Button href="" variant="outline" color="blue">
+                Harmonogram
+              </Button>
+              <Button href="" variant="outline" color="blue">
+                Kosztorys
+              </Button>
             </div>
+            <p className="mt-4 text-3xl text-slate-600">
+              Projekt TASK został zgłoszony do drugiej edycji konkursu Polytechnica Nova.
+            </p>
+            <p className="mt-4">
+              <Link
+                href="https://pwr.edu.pl/polytechnica-nova"
+                className="text-base font-medium text-puder hover:text-puder-800"
+              >
+                Przeczytaj więcej o inicjatywie Polytechnica Nova{' '}
+                <span aria-hidden="true">&rarr;</span>
+              </Link>
+            </p>
           </div>
         </div>
       </div>

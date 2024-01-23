@@ -11,7 +11,7 @@ const sections = [
   },
   {
     id: 'dla-kogo',
-    title: 'Dla kogo?' 
+    title: 'Kto poparł?' 
   },
   {
     id: 'jak',

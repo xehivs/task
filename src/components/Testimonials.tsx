@@ -12,23 +12,24 @@ import avatarImage4 from '@/images/avatars/avatar-4.png'
 import avatarImage5 from '@/images/avatars/pawelk.jpg'
 import avatarImage6 from '@/images/avatars/avatar-6.png'
 import avatarImage7 from '@/images/avatars/kasiag.png'
+import mateuszImage from '@/images/avatars/mateusz.jpg'
 import avatarImage8 from '@/images/avatars/avatar-8.png'
 import avatarImage9 from '@/images/avatars/avatar-9.png'
 import avatarImage10 from '@/images/avatars/avatar-10.png'
 import avatarImage11 from '@/images/avatars/avatar-11.png'
 
 const testimonials = [
-  // [
-  //   // {
-  //   //   content:
-  //   //     'I do not know why I am here.',
-  //   //   author: {
-  //   //     name: 'Antonio Alejandro',
-  //   //     role: 'Frontend Developer',
-  //   //     image: avatarImage3,
-  //   //   },
-  //   // },
-  // ],
+  [
+    {
+      content:
+        'W przypadku zarządzania zespołem badawczym naturalnym jest poleganie na naszej intuicji. Ta niestety bywa zgubna, zwłaszcza jeśli nie mamy odpowiedniego wykształcenia czy doświadczenia. Kursy zarządzania projektami dostarczają narzędzi, które możemy zaadaptować do własnych potrzeb, tworząc metody dopasowane do naszych zespołów, aby jeszcze lepiej ze sobą współpracować.',
+      author: {
+        name: 'Mateusz Szatkowski',
+        role: 'PRINCE2 FOUNDATION / P3 EXPRESS',
+        image: mateuszImage,
+      },
+    },
+  ],
   [
     {
       content:
@@ -95,9 +96,9 @@ export function Testimonials() {
         <h2 className="font-display text-4xl font-bold tracking-tight text-slate-900">
           Część z nas uczestniczyła już w podobnych działaniach...
         </h2>
-        {/* <p className="mt-4 text-lg tracking-tight text-slate-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, eaque laborum! Consequuntur tenetur suscipit atque dicta accusamus, repudiandae inventore! Assumenda voluptas cupiditate quod aliquam rerum, provident quibusdam quidem vero odit.
-        </p> */}
+        <p className="mt-4 text-lg tracking-tight text-slate-600">
+        To od Ciebie zależy. Możesz zacząć decydować, w czym chcesz się szkolić, zarówno indywidualnie, jak i w grupie. Zobacz z jakich kursów skorzystali inni.
+        </p>
       </Container>
       <Expandable className="group mt-16">
         <ul

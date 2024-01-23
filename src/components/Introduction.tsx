@@ -18,8 +18,10 @@ const resources = [
       "Utworzymy budżet na ogólnouczelniane mikrogranty.",
     image: function DiscordImage() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center bg-[#ce4e8a]">
-          <Image src={discordImage} alt="" unoptimized />
+        <div className="absolute inset-0 flex items-center justify-center bg-[#43609F]">
+          <p className='text-white text-lg font-bold px-8'>
+          Ułatwijmy finansowanie inicjatyw pracowniczych
+          </p>
         </div>
       )
     },
@@ -30,8 +32,10 @@ const resources = [
       "Dzięki “TASK” sfinansujemy aktywności (kursy, szkolenia, warsztaty), których celem będzie poprawa jakości komunikacji i metod zarządzania zespołami. W ten sposób proponujemy, aby wyzwanie rozwiązywania problemów na Uczelni stało się przedmiotem wspólnej, inicjowanej oddolnie wrażliwości. W ten sposób każdy będzie mógł samemu zatroszczyć się o siebie i o swoje środowisko pracy.",
     image: function DiscordImage() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center bg-[#ce4e8a]">
-          <Image src={discordImage} alt="" unoptimized />
+        <div className="absolute inset-0 flex items-center justify-center bg-[#43609F]">
+          <p className='text-white text-lg font-bold px-8'>
+          Postarajmy się ze sobą dogadać
+          </p>
         </div>
       )
     },
@@ -42,8 +46,10 @@ const resources = [
       "Wzmocnimy poczucie sprawczości u każdego z nas.",
     image: function DiscordImage() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center bg-[#ce4e8a]">
-          <Image src={discordImage} alt="" unoptimized />
+        <div className="absolute inset-0 flex items-center justify-center bg-[#43609F]">
+          <p className='text-white text-lg font-bold px-8'>
+          Zróbmy coś z besilnością
+          </p>
         </div>
       )
     },
@@ -54,8 +60,10 @@ const resources = [
       "Umożliwimy i uprościmy także sposób rozwiązywania problemów. Osoba, której dotyczy trudność, sama dokona diagnozy. Liczymy na to, że pracownicy zachęceni łatwym w uzyskaniu finansowaniem znajdą odpowiednie szkolenia i wpłyną na usunięcie wielu przeszkód.",
     image: function DiscordImage() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center bg-[#ce4e8a]">
-          <Image src={discordImage} alt="" unoptimized />
+        <div className="absolute inset-0 flex items-center justify-center bg-[#43609F]">
+          <p className='text-white text-lg font-bold px-8'>
+          Nie stawiajmy dodatkowych utrudnień
+          </p>
         </div>
       )
     },
@@ -66,8 +74,10 @@ const resources = [
       "Program pozwoli także na postawienie diagnozy dotyczącej szeroko rozumianej kondycji zarządczej Uczelni.",
     image: function DiscordImage() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center bg-[#ce4e8a]">
-          <Image src={discordImage} alt="" unoptimized />
+        <div className="absolute inset-0 flex items-center justify-center bg-[#43609F]">
+          <p className='text-white text-lg font-bold px-8'>
+          Skoro jest tak dobrze, to dlaczego jest tak źle?
+          </p>
         </div>
       )
     },
@@ -78,8 +88,10 @@ const resources = [
       "Wzbogacimy naszą wiedzę o tym, jak powszechne są problemy społeczne i jaki jest ich najczęstszy typ. Te informacje staną się kluczowe dla formowania dalszej polityki Uczelni. Program ma charakter sondażu, który w przypadku sukcesu będzie można udoskonalić i kontynuować.",
     image: function DiscordImage() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center bg-[#ce4e8a]">
-          <Image src={discordImage} alt="" unoptimized />
+        <div className="absolute inset-0 flex items-center justify-center bg-[#43609F]">
+          <p className='text-white text-lg font-bold px-8'>
+          Skoro jest tak źle, to co pomaga?
+          </p>
         </div>
       )
     },
@@ -122,9 +134,9 @@ export function Introduction() {
                 <resource.image />
               </div>
               <div>
-                <h3 className="text-base font-medium tracking-tight text-slate-900">
+                {/* <h3 className="text-base font-medium tracking-tight text-slate-900">
                   {resource.title}
-                </h3>
+                </h3> */}
                 <p className="mt-2 text-sm text-slate-600">
                   {resource.description}
                 </p>

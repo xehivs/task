@@ -47,6 +47,7 @@ export function Kto() {
             <ul role="list" className="mt-8 space-y-3">
               {[
                 'Marta Rusnak (W1)',
+                'Katarzyna Gwóźdź (W11)',
                 'Radosław Szymon (W11, doktorant)',
                 'Dawid Skrzypczak (W3)',
                 'Kamila Foremny (W12, pracowniczka administracji)',
@@ -58,8 +59,7 @@ export function Kto() {
                 </li>
               ))}
             </ul>
-
-              <p className="mt-4 text-lg tracking-tight text-slate-700">
+            <p className="mt-4 text-lg tracking-tight text-slate-700">
               Za szczególne wsparcie, konsultacje, cenne i szczegółowe rady dziękujemy Marlenie Boguckiej-Kubackiej, Krzysztofowi Gałkowskiemu, Joannie Majczyk, Oldze Rac-Rumijowskiej, Witoldowi Sikorze, Grzegorzowi Serafinowi, Mateuszowi Szatkowskiemu.
             </p>
           </div>

@@ -27,18 +27,7 @@ export function Claim() {
         Projekt zostanie wykorzystany do diagnozy potrzeb społeczności Politechniki Wrocławskiej, co umożliwi zaplanowanie kolejnych celowanych działań w zakresie szkoleń, projektów wewnętrznych czy ubiegania się o środki zewnętrzne.
         </p>
 
-        <p className="mt-4">
-          Projekt TASK został zgłoszony do drugiej edycji konkursu Polytechnica Nova.
-        </p>
-        <p className="mt-4">
-          <Link
-            href="https://pwr.edu.pl/polytechnica-nova"
-            className="text-base font-medium text-puder hover:text-puder-800"
-          >
-            Przeczytaj więcej o inicjatywie Polytechnica Nova{' '}
-            <span aria-hidden="true">&rarr;</span>
-          </Link>
-        </p>
+        
       </Container>
 
       

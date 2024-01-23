@@ -9,6 +9,13 @@ import strokesImage from '@/images/screencasts/strokes.svg'
 
 const stages = [
   {
+    title: 'Wybór projektu TASK w konkursie Polytechnica NOVA',
+    description:
+      'Tu jesteśmy teraz.',
+    //image: setupImage,
+    runtime: { minutes: 16, seconds: 54 },
+  },
+  {
     title: 'Wybór kategorii grantu',
     description:
       'O dofinansowanie będzie można aplikować w dwóch kategoriach: indywidualnej (kat. A) oraz zespołowej (kat. B). Pojedyncza osoba będzie mogła otrzymać finansowanie do 5 000 zł, a zespół do 25 000 zł. Na przeprowadzanie kursów w 2024/25 roku i administrację projektem przewidziano łącznie 1 056 000 zł.',
@@ -101,12 +108,18 @@ export function Jak() {
           {stages.map((stage) => (
             <li key={stage.title} className="[counter-increment:video]">
               <div
-                className="relative flex h-44 items-center justify-center rounded-2xl px-6 shadow-lg"
+                className="relative flex h-44 items-center justify-center rounded-2xl px-6 shadow-lg mb-4"
                 style={{
                   backgroundImage:
-                    'conic-gradient(from -49.8deg at 50% 50%, #ce4e8a 0deg, #ce4e8a 59.07deg, #Fe4eBa 185.61deg, #ce4e8a 284.23deg, #Fe4eBa 329.41deg, #ce4e8a 360deg)',
+                    'conic-gradient(from -49.8deg at 50% 50%, #43609F 0deg, #43609F 59.07deg, #43609F 185.61deg, #43609F 284.23deg, #43609F 329.41deg, #43609F 360deg)',
                 }}
               >
+              <p className='text-white text-lg font-bold px-8 justify-center'>
+                
+              {stage.title}
+              </p>
+                
+
                 {/* <div className="flex overflow-hidden rounded shadow-sm">
                   <Image src={stage.image} alt="" unoptimized />
                 </div> */}
@@ -123,7 +136,7 @@ export function Jak() {
                 </div> */}
               </div>
               <h3 className="mt-8 text-base font-medium tracking-tight text-slate-900 before:mb-2 before:block before:font-mono before:text-sm before:text-slate-500 before:content-[counter(video,decimal-leading-zero)]">
-                {stage.title}
+                {/* {stage.title} */}
               </h3>
               <p className="mt-2 text-sm text-slate-600">{stage.description}</p>
             </li>

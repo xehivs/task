@@ -118,14 +118,39 @@ export function DlaKogo() {
 
       <Container>
         <SectionHeading number="2" id="pricing-title">
-          Dla kogo?
+          Kto poparł?
         </SectionHeading>
+        
         <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-          Dla kogo jest dedykowany TASK?
+          Nasz projekt poparli
         </p>
-        <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">
-        Uczestnikiem Konkursu może być każda osoba, która w dniu składania wniosku jest formalnie związana z Uczelnią, pracownicy (zatrudnieni w formie umowy o pracę lub cywilnoprawnej).
-        </p>
+
+        {/* <p className="mt-4 text-lg tracking-tight text-slate-700">
+          Bezpośrednimi autorami wniosku są: 
+        </p> */}
+        <ul role="list" className="mt-8 space-y-3">
+          {[
+            'Członkowie Academia Iuvenum 2021-2024',
+            'Dziekan Szkoły Doktorskiej',
+            'Dziekan Wydziału Chemicznego', 
+            'Dziekan Wydziału Medycznego',
+            'Dziekan Wydziału Zarządzania', 
+            'Kierowniczka Dziekanatu i Pracowników Administracji Wydziału Architektury',
+            'Kierowniczka Dziekanatu Wydziału Elektroniki, Fotoniki i Mikrosystemów', 
+            'Kierowniczka Dziekanatu Wydziału Podstawowych Problemów Techniki',
+            'Opiekunka Naukowa Koła Naukowego Pojazdów i Robotów Mobilnych',
+            'Pełnomocniczka Rektora ds. Osób z Niepełnosprawnościami',
+            'Pełnomocniczka Rektora ds. przeciwdziałania dyskryminacji wraz z Zespołem',
+            'Pełnomocniczka Rektora ds. rozwoju nauk społecznych i humanistycznych / Mentorki Academia Iuvenum',
+            'Zarząd Parlamentu Studentów',
+            'Rada Doktorantów',
+          ].map((feature) => (
+            <li key={feature} className="flex">
+              <CheckIcon className="h-8 w-8 flex-none fill-puder" />
+              <span className="ml-4">{feature}</span>
+            </li>
+          ))}
+        </ul>
       </Container>
 
       {/* ● pracownicy dydaktyczni,
