@@ -48,7 +48,7 @@ export function Hero() {
         <div className="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pl-16 lg:pt-0 xl:pl-20">
           <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
           <div className="aspect-w-16 aspect-h-9">
-            <iframe src="https://www.youtube.com/embed/xtd2eIrr0kU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/xtd2eIrr0kU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
           </div>
             {/* <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
               TASK
