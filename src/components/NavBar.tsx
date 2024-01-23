@@ -19,7 +19,7 @@ const sections = [
   },
   {
     id: 'kto',
-    title: 'Kim jesteśmy?' 
+    title: 'Autorzy' 
   },
 ]
 
