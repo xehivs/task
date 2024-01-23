@@ -10,6 +10,7 @@ import pawelK from '@/images/avatars/pawelk.jpg'
 import dawidS from '@/images/avatars/dawids.jpg'
 import radoslawS from '@/images/avatars/radoslaws.png'
 import kamilaF from '@/images/avatars/kamilaf.png'
+import martaR from '@/images/avatars/Marta.jpg'
 
 import { CheckIcon } from '@/components/CheckIcon'
 import { Container } from '@/components/Container'
@@ -18,7 +19,7 @@ const people = [
   {
     name: 'Marta Rusnak',
     department: "W1",
-    photo: authorImage
+    photo: martaR
   },
   {
     name: 'Katarzyna Gwóźdź',
