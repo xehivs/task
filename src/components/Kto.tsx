@@ -10,7 +10,7 @@ import pawelK from '@/images/avatars/pawelk.jpg'
 import dawidS from '@/images/avatars/dawids.jpg'
 import radoslawS from '@/images/avatars/radoslaws.png'
 import kamilaF from '@/images/avatars/kamilaf.png'
-import martaR from '@/images/avatars/Marta.jpg'
+import martaR from '@/images/avatars/marta.jpg'
 
 import { CheckIcon } from '@/components/CheckIcon'
 import { Container } from '@/components/Container'
