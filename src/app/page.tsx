@@ -22,14 +22,12 @@ export default function Home() {
     <>
       <Hero />
       <NavBar />
-      {/* <Claim /> */}
       <Introduction />
       <Testimonials />
       <DlaKogo />
       <Jak />
-      {/* <Register /> */}
       <Kto />
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
