@@ -28,7 +28,7 @@ const people = [
   },
   {
     name: 'Radosław Szymon',
-    department: "W11 (doktorant)",
+    department: "W11, doktorant",
     photo: radoslawS
   },
   {

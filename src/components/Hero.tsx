@@ -63,16 +63,16 @@ export function Hero() {
               {/* <Button href="#free-chapters" color="puder">
                 Złóż wniosek
               </Button> */}
-              <Button href="" variant="outline" color="blue">
+              <Button href="files/opis.pdf" variant="outline" color="blue">
                 Opis
               </Button>
-              <Button href="" variant="outline" color="blue">
+              <Button href="files/regulamin.pdf" variant="outline" color="blue">
                 Regulamin
               </Button>
-              <Button href="" variant="outline" color="blue">
+              <Button href="files/harmonogram.pdf" variant="outline" color="blue">
                 Harmonogram
               </Button>
-              <Button href="" variant="outline" color="blue">
+              <Button href="files/kosztorys.pdf" variant="outline" color="blue">
                 Kosztorys
               </Button>
             </div>
