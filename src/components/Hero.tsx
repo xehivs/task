@@ -3,7 +3,6 @@ import Link from 'next/link'
 
 import { Button } from '@/components/Button'
 import { GridPattern } from '@/components/GridPattern'
-import { StarRating } from '@/components/StarRating'
 import coverImage from '@/images/tasks.jpg'
 
 function Testimonial() {
@@ -36,7 +35,6 @@ export function Hero() {
               patternTransform="translate(112 64)"
             />
           </div>
-          {/* <div className="relative z-10 mx-auto flex w-64 rounded-xl bg-puder shadow-xl md:w-80 lg:w-auto"> */}
           <div className="relative z-10 mx-auto flex w-64 md:w-80 lg:w-auto bg-white rounded-xxl p-8">
             <Image className="w-full" src={coverImage} alt="" priority />
           </div>
@@ -48,41 +46,32 @@ export function Hero() {
         <div className="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pl-16 lg:pt-0 xl:pl-20">
           <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
           <div className="aspect-w-16 aspect-h-9">
-            <iframe src="https://www.youtube.com/embed/xtd2eIrr0kU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            <iframe src="https://www.youtube.com/embed/xtd2eIrr0kU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" className='z-50'></iframe>
           </div>
-            {/* <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
-              TASK
-            </h1>
-            <h2 className="font-display text-3xl font-extrabold text-slate-900 sm:text-3xl">
-              Targetted Skills
-            </h2>
-            <p className="mt-4 text-3xl text-slate-600">
-              Mikrogranty celowane – wsparcie w zakresie doskonalenia umiejętności komunikacyjnych i zarządczych.
-            </p> */}
             <div className="mt-8 flex gap-4">
               {/* <Button href="#free-chapters" color="puder">
                 Złóż wniosek
               </Button> */}
-              <Button href="files/opis.pdf" variant="outline" color="blue">
+              <Button href="files/opis.pdf" variant="outline" color="blue" className='z-50'>
                 Opis
               </Button>
-              <Button href="files/regulamin.pdf" variant="outline" color="blue">
+              <Button href="files/regulamin.pdf" variant="outline" color="blue" className='z-50'>
                 Regulamin
               </Button>
-              <Button href="files/harmonogram.pdf" variant="outline" color="blue">
+              <Button href="files/harmonogram.pdf" variant="outline" color="blue" className='z-50'>
                 Harmonogram
               </Button>
-              <Button href="files/kosztorys.pdf" variant="outline" color="blue">
+              <Button href="files/kosztorys.pdf" variant="outline" color="blue" className='z-50'>
                 Kosztorys
               </Button>
             </div>
             <p className="mt-4 text-3xl text-slate-600">
               Projekt TASK został zgłoszony do drugiej edycji konkursu Polytechnica Nova.
             </p>
-            <p className="mt-4">
+            <p className="mt-4 z-50">
               <Link
                 href="https://pwr.edu.pl/polytechnica-nova"
-                className="text-base font-medium text-puder hover:text-puder-800"
+                className="text-base font-medium text-puder hover:text-puder-800 z-50"
               >
                 Przeczytaj więcej o inicjatywie Polytechnica Nova{' '}
                 <span aria-hidden="true">&rarr;</span>
